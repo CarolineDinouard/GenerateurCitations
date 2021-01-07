@@ -1,0 +1,35 @@
+html, body {
+    background: #5C258D;
+    background: -webkit-linear-gradient(to right, #1e8cd6, #39bbdb);
+    background: linear-gradient(to right, #1e8cd6, #39bbdb);
+    height: 100%;
+    min-width: 500px;
+  }
+  
+  #citation {
+    font-size: 2em;
+    font-family: 'Dancing Script';
+    line-height: 1.3em;
+    letter-spacing: 1px;
+  }
+  
+  #citation:before {
+      content: open-quote;
+  }
+  
+  #citation:after {
+      content: close-quote;
+  }
+  
+  #auteur {
+    font-size: 1.5em;
+    font-style: italic;
+  }
+  
+  #nouveau {
+    background: #ff9966;
+    background: -webkit-linear-gradient(to right, #f266cf, #fab152);
+    background: linear-gradient(to right, #f266cf, #fab152);
+    cursor: pointer;
+  }
+
